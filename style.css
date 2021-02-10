@@ -1,0 +1,35 @@
+body {
+	background-color: rgb(245,237,184);
+	font-family: monospace;
+}
+
+h2 {
+	border-style: dotted;
+	border-width: 4pt;
+	border-color: white;
+	color: rgb(66,50,38);	
+}
+
+h1 {
+	border-style: dotted;
+	border-width: 4pt;
+	border-color: white;
+	color: rgb(66,50,38);
+	font-variant: small-caps;
+
+}
+
+a {
+	color: rgb(110,81,60);
+	font-style: italic;
+}
+
+img {
+	outline-style: solid;
+	outline-color: white;
+}
+
+
+
+
+
