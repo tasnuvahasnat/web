@@ -11,12 +11,12 @@ h1, h2 {
 	color: rgb(66,50,38);
 	font-variant: small-caps ;
 	margin: 15px ;	
+	display: block;
 }
 
 h1 {
-	font-variant: small-caps;
-	text-align: center;
 	font-size: 35px;
+	text-align: center;
 }
 
 h2 {
@@ -24,20 +24,8 @@ h2 {
 }
 
 p {
-	font-size: 20px; 
+	font-size: 18px; 
 	margin: 25px;
-}
-
-a {
-	color: rgb(110,81,60);
-	font-size: 20px;
-	font-style: none;
-}
-
-ul {
-  list-style-type: none;
-  margin: 20px;
-  padding: 0;
 }
 
 img, iframe {
@@ -56,6 +44,35 @@ iframe {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+a {
+	font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(249, 252, 246, 0.85);
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+ 
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(186, 214, 188);
 }
 
 
