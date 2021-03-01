@@ -1,0 +1,90 @@
+html {
+	background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v455-tang-14-femininegeometric_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d8f175994f60e1a94c4e4c711e30138a");
+	font-family: Garamond;
+}
+
+h1, h2 {
+	text-align: center;
+	background-color: rgba(248, 195, 195, 0.25);
+	border-top: solid white 8px;
+	padding: 5px;
+	color: rgb(66,50,38);
+	font-variant: small-caps ;
+	margin: 15px ;	
+	display: block;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	font-size: 30px;
+	text-align: center;
+}
+
+p {
+	font-size: 18px; 
+	margin: 25px;
+	background-color: rgba(255, 255, 255, 0.65);
+}
+
+img, iframe {
+	outline-style: solid;
+	outline-color: white;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+iframe {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 240, 243);
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+ 
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(242, 228, 225);
+}
+
+/* Add an active class to highlight the current page */
+li a.active {
+  background-color: rgb(242, 228, 225);
+}
