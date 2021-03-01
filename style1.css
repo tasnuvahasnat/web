@@ -84,7 +84,6 @@ li a:hover {
   background-color: rgb(242, 228, 225);
 }
 
-/* Add an active class to highlight the current page */
 li a.active {
   background-color: rgb(242, 228, 225);
 }
