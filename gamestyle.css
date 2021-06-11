@@ -1,0 +1,168 @@
+/*WEBSITE DESIGN*/
+html {
+	/*background-image: url("https://wallpaperaccess.com/full/199357.jpg");*/
+	/*background-color: rgb(171, 153, 111, 0.65);*/
+	background-color: rgb(23, 18, 2);
+	font-family: "Copperplate";
+}
+
+.main {
+	background-image: url("https://www.history.com/.image/t_share/MTY2NzI3MDI3NzU4NDc0NTE1/alexander-the-great-gettyimages-517647745.jpg");
+	background-size: 100%;
+	background-width: 100%;
+	background-height: 100%;
+	margin-left: none;
+	margin-right: none;
+	margin-top: 10px;
+}
+
+.fancy {
+	font-family: "Copperplate";
+}
+
+.header {
+	text-shadow:
+			-0.5px -0.5px 0 #000,
+			0.5px -0.5px 0 #000,
+			-0.5px 0.5px 0 #000,
+			0.5px 0.5px 0 #000;
+}
+
+/*TEXT*/
+
+h1 {
+	font-size: 400%;
+	font-weight: bold;
+	color: white;
+	/*color: rgb(66,50,38)*/;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	margin-left: 10px;
+	
+}
+
+h2 {
+	font-size: 230%;
+	color: white;
+	/*color: rgb(66,50,38)*/;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	text-outline: 1px black solid ;
+}
+
+h3 {
+	font-size: 110%;
+	margin-top: 7px;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+	/*color: rgb(66,50,38)*/;
+}
+
+h4 {
+	font-size: 110%;
+	margin-top: 2px;
+	margin-left: 10px;
+	color: white;
+	/*color: rgb(66,50,38)*/;
+}
+
+p {
+	font-size: 110%; 
+	font-family: monospace;
+	margin: 25px;
+	/*background-color: rgba(255, 255, 255, 0.65);*/
+	color:white;
+}
+
+a {
+	font-size: 100%;
+	color: white;	
+}
+
+li {
+	font-family: monospace "Copperplate";
+	color: white;
+	font-size: 120%;
+	
+	margin-bottom: 10px;
+
+}
+
+ul{
+	list-style-type: circle; 
+	margin-bottom: 10px;
+} 
+
+.tired {
+	list-style-type: square; 
+}
+.sotired {
+	font-family: monospace;
+}
+
+/*NAVIGATION*/
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(143, 124, 104, 0.65);
+  
+  text-align: center;
+}
+
+.page {
+  float: left;
+  margin-bottom: 0px;
+}
+
+.page a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Copperplate";
+}
+
+.page a:hover {
+  background-color: rgb(71, 114, 143);
+}
+
+.page a.active {
+  background-color: rgb(71, 114, 143);
+}
+
+/*IMAGES*/
+img, iframe {
+	outline-style: solid;
+	outline-color: white;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+iframe {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* EXTRA
+h2 {
+	text-align: center;
+	background-color: rgb(171, 153, 111, 0.65);
+	border-top: solid white 8px;
+	padding: 5px;
+	color: rgb(66,50,38);
+	font-variant: small-caps ;
+	margin: 15px ;	
+	display: block;
+}
+
+.left {
+	display: block;
+	margin-left: 70%;
+	margin-right: 30%;
+}
+
+*/
+
