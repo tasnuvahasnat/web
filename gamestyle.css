@@ -28,6 +28,10 @@ html {
 			0.5px 0.5px 0 #000;
 }
 
+.minihead {
+	margin-bottom: 2px;
+}
+
 /*TEXT*/
 
 h1 {
