@@ -100,6 +100,7 @@ ul{
 
 .tired {
 	list-style-type: square; 
+	margin-top: 20px;
 }
 .sotired {
 	font-family: monospace;
@@ -143,6 +144,7 @@ img, iframe {
 	outline-color: white;
 	margin-right: 30px;
 	margin-left: 30px;
+	margin: 5px;
 }
 
 iframe {
