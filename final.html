@@ -42,13 +42,13 @@
 <img src= "http://drive.google.com/uc?id=10kTpsU9ghDF3c_sE2oWCINiGgqqw9DvU"  height="150" alt="end turn" >
 </div>
 
-	<p> You will be able to see current information when you end your turn. After inputting your decision, you will be able to access the main menu again. Remember to keep up with claiming provinces as your enemies will not be deterred unless you can win a war against them. </p>
+	<p> You will be able to see current information when you end your turn. After inputting your decision, you will be able to access the main menu again. Remember to keep up with claiming provinces as your enemy will not be deterred unless you can win a war against them. </p>
 					
 </li>
 
 <li class = "tired">
 <h3>How it Works</h3>
-	<p>When the player clicks "run," the file loads a welcome message that allows the player to create a name for their character and empire using <i>input</i>. After this, the file loads a menu containing options like "military menu," "province management," "graphs," "war menu," and the option to access their annual dilemma. The military menu and province management uses <i>global</i> variables and <i>input</i> to generate options. The graphs are created using <i>lists</i> that keep track of changes in status and <i>matplotlib</i>. The annual dilemma is generated using <i>random</i> to access a <i>dictionary</i> of 26 events and 52 possible outcomes. It is also used to code computer behavior. The player inputs either a 0 or 1 to give their response to an event. If the response is not a 0 or 1, it results in one of the coded error messages and will redirect you to the appropriate menu. To redirect to other menus, the player will input either an x or y. In addition to this, each turn a map of the empire and surrounding areas is generated using <i>turtles</i> and colors. For one event, the program reads a file of data and relays the information in the shell, line by line. We also used the time module to create pauses between relaying information and displaying a menu. </p>
+	<p>When the player clicks "run," the file loads a welcome message that allows the player to create a name for their character and empire using <i>input</i>. After this, the file loads a menu containing options like "military menu," "province management," "graphs," "war menu," and the option to access their annual dilemma. The military menu and province management uses <i>global</i> variables and <i>input</i> to generate options. The graphs are created using <i>lists</i> that keep track of changes in status and <i>matplotlib</i>. The annual dilemma is generated using <i>random</i> to access a <i>dictionary</i> of 26 events and 52 possible outcomes. It is also used to code computer behavior. The player inputs either a 0 or 1 to give their response to an event. If the response is not a 0 or 1, it results in one of the coded error messages and will redirect you to the appropriate menu. To redirect to other menus, the player will input either an x or y. In addition to this, each turn a map of the empire and surrounding areas is generated using <i>turtles</i> and colors. For one event, the program reads a file of data and relays the information in the shell, line by line. This also utilizes <i>pprint</i>. We used the time module to create pauses between relaying information and displaying a menu. </p>
 
 </li>
 
@@ -64,8 +64,8 @@
 <li class = "tired">
 <h3>Resources</h3>
 	<ul>
-		<li class = "sotired"><a href = "https://realpython.com/beginners-guide-python-turtle/">Turtle Information</a>: This was used to learn how to apply functions like  <i>turtles.begin_fill()</i> and <i>turtles.end_fill()</i> to make the game map. </li>
-		<li class = "sotired"><a href = "https://www.programiz.com/python-programming/time">Time Module</a>: We used this to introduce a few pauses after printing information in the shell. This was necessary to make it easier and less overwhelming to read through all the text in the shell. </li>
+		<li class = "sotired"><a href = "https://realpython.com/beginners-guide-python-turtle/">Turtle Information</a>: This was used to learn how to apply functions like  <i>turtle.begin_fill()</i>, <i>turtle.end_fill()</i>, and <i>turtle.write()</i> to make the game map and label it. </li>
+		<li class = "sotired"><a href = "https://www.programiz.com/python-programming/time">Time Module</a>: The time module represents time in different ways in code. We specifically used time.sleep() to introduce wait times after printing information in the shell. This was necessary to make it easier and less overwhelming to read through all the text in the shell. </li>
 	</ul>
 </li>
 
@@ -75,6 +75,6 @@
 		<li class = "sotired"> There is no instructions tab in the actual game, so players should also consult the website to learn more about how to play. </li>
 		<li class = "sotired">When the player clicks 4 off the main menu, turtle graphics will open and generate the map. To get to the next event and view their current status, the player has to click into the turtle graphics window and then onto the shell. </li>	
 		<li class = "sotired">When you choose to view the graphs, you will not be able to close out of the last graph. You will have to click into the shell and continue the game.</li>
-		
 
 </ul>
+	
